@@ -3,6 +3,8 @@ import { createBooking } from "../controllers/booking.controller.js";
 
 const router = Router();
 
-router.post("/", createBooking);
+router.post("/", (req, res) => {
+    createBooking(req, res);
+});
 
 export default router;
