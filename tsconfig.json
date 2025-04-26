@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",   // Supports async/await
+    "module": "ESNext",    // Use ES Modules
+    "moduleResolution": "node", 
+    "esModuleInterop": true,
+    "outDir": "dist",  // Output to dist directory
+    "rootDir": "src",  // Source code in src directory
+    "strict": true,    // Enable strict typing
+    "skipLibCheck": true  // Skip checking library files
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
